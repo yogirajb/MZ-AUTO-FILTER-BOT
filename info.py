@@ -90,7 +90,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'oytbawr') # Public Cha
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/moviiezonerequest')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/mzbotz')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'mzbotsupport') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'mzbotzsupport') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/sammarathi')
 
 # True Or False
@@ -126,9 +126,9 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
-TUTORIAL = environ.get('TUTORIAL', '') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'MdiskShortner.link')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'cd6c1f59b3bb44988c8b4450ccd80e50fc9ef5b0')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_open_mdiskshortner/4') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
@@ -166,7 +166,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "https://romantic-faye-visionloverz-047c02c2.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
